@@ -68,5 +68,5 @@ with open('delete-users.txt', 'a') as f:
         else:
             llt = datetime.datetime.strptime((user['last_login_time']), '%Y-%m-%dT%H:%M:%SZ')
             llt_text = llt.strftime("%Y-%m-%d %H:%M:%S")
-            if ztype != 1 and llt < ll_test:
+            if ztype = 1 and llt < ll_test:
                 # Search for user in LDAP
